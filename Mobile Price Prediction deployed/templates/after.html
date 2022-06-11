@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mobile Price Prediction</title>
+  
+  
+	<link rel="stylesheet" href="static/css/app.css">
+</head>
+<body a link="blue" vlink="blue">
+<section>
+<div class="img"></div>
+<form class="form" method="POST", action="{{url_for('home')}}">
+    <center>
+<div id="price" class="final">	<h2>  PREDICTED MOBILE PRICE : {{ data }} Rupees </h2> </div>
+     
+  
+ <a href='/'>Go to Home page</a>
+
+    <div>     <h2>Battery : {{ datas[0]}} mAh {{ d[0]}} </h2>
+        <h2> Bluetooth : {{ datas[1] }}</h2>
+        <h2> Processor speed : {{ datas[2] }} GHz {{ d[1]}}</h2>
+        <h2>Dual sim : {{ datas[3] }}</h2>
+         <h2>Front camera : {{ datas[4] }} MP {{ d[2]}}</h2>
+        <h2> 4G : {{ datas[5] }}</h2>
+         <h2>Intergal Memory  : {{ datas[6] }} GB {{ d[3]}}</h2>
+         <h2>Mobile Depth : {{ datas[7] }} cm {{ d[4]}}</h2>
+         <h2>Mobile Weight  : {{ datas[8] }} gms {{ d[5]}}</h2>
+         <h2>N0.Of Cores : {{ datas[9] }} Cores {{ d[6]}}</h2>  </div>
+        <div> <h2> Rear camera  :{{ datas[10] }} MP {{ d[7]}}</h2>
+        <h2> Height in Pixels : {{ datas[11] }} pixels {{ d[8]}}</h2>
+        <h2> Width in Pixels : {{ datas[12] }} pixels {{ d[9]}}</h2>
+        <h2> RAM : {{ datas[13] }} GB {{ d[10]}}</h2>
+        <h2> Screen height : {{ datas[14] }} cm {{ d[11]}}</h2>
+        <h2> Screen width : {{ datas[15] }} cm {{ d[12]}}</h2>
+        <h2> Battery capacity : {{ datas[16] }} Hours {{ d[13]}}</h2>
+        <h2> 3G : {{ datas[17] }}</h2>
+        <h2>Touch screen : {{ datas[18] }}</h2>
+        <h2> WiFi : {{ datas[19] }}</h2>  </div>
+        <br></br>
+   
+
+    </center>
+</form>
+</body>
+
+</html>
+
+
+
+
+
+
+
